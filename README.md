@@ -1,45 +1,38 @@
-=== Link Rel Patch ===
-Contributors: ucfwebcom
-Requires at least: 5.1.0
-Tested up to: 5.3.0
-Stable tag: 0.0.0
-Requires PHP: 5.4
-License: GPLv3 or later
-License URI: http://www.gnu.org/copyleft/gpl-3.0.html
+# Link Rel Patch #
 
 Removes the noreferrer rel value that is added to links set to open in a new tab on page update or publish.
 
 
-== Description ==
+## Description ##
 
 Filters the rel values that are automatically added on links that are set to open in a new tab. The only rel value that is added to these links on page update or publish is `noopener`. The rel value `noreferrer` is removed.
 
 
-== Documentation ==
+## Documentation ##
 
 Head over to the [Link Rel Patch wiki](https://github.com/UCF/Link-Rel-Patch/wiki) for detailed information about this plugin, installation instructions, and more.
 
 
-== Changelog ==
+## Changelog ##
 
-= 1.0.0 =
+### 1.0.0 ###
 * Initial release
 
 
-== Upgrade Notice ==
+## Upgrade Notice ##
 
 n/a
 
 
-== Development ==
+## Development ##
 
 [Enabling debug mode](https://codex.wordpress.org/Debugging_in_WordPress) in your `wp-config.php` file is recommended during development to help catch warnings and bugs.
 
-= Requirements =
+### Requirements ###
 * node
 * gulp-cli
 
-= Instructions =
+### Instructions ###
 1. Clone the Link-Rel-Patch repo into your local development environment, within your WordPress installation's `plugins/` directory: `git clone https://github.com/UCF/Link-Rel-Patch.git`
 2. `cd` into the new Link-Rel-Patch directory, and run `npm install` to install required packages for development into `node_modules/` within the repo
 3. Optional: If you'd like to enable [BrowserSync](https://browsersync.io) for local development, or make other changes to this project's default gulp configuration, copy `gulp-config.template.json`, make any desired changes, and save as `gulp-config.json`.
@@ -51,10 +44,10 @@ n/a
 5. If you haven't already done so, create a new WordPress site on your development environment to test this plugin against.
 6. Activate this plugin on your development WordPress site.
 
-= Other Notes =
+### Other Notes ###
 * This plugin's README.md file is automatically generated. Please only make modifications to the README.txt file, and make sure the `gulp readme` command has been run before committing README changes. See the [contributing guidelines](https://github.com/UCF/Link-Rel-Patch/blob/master/CONTRIBUTING.md) for more information.
 
 
-== Contributing ==
+## Contributing ##
 
 Want to submit a bug report or feature request? Check out our [contributing guidelines](https://github.com/UCF/Link-Rel-Patch/blob/master/CONTRIBUTING.md) for more information. We'd love to hear from you!
