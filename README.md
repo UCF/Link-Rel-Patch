@@ -1,11 +1,11 @@
 # Link Rel Patch #
 
-Removes the noreferrer rel value that is added to links set to open in a new tab on page update or publish.
+Removes the noreferrer rel value that is added to links set to open in a new tab on post update or publish.
 
 
 ## Description ##
 
-Filters the rel values that are automatically added on links that are set to open in a new tab. The only rel value that is added to these links on page update or publish is `noopener`. The rel value `noreferrer` is removed.
+Filters the rel values that are automatically added on links that are set to open in a new tab. The only rel value that is added to these links on post update or publish is `noopener`. The rel value `noreferrer` is removed.
 
 
 ## Documentation ##
