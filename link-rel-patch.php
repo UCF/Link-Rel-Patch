@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Link Rel Patch
-Description: A WordPress plugin that filters the rel values that are automatically added on links that are set to open in a new tab. The only rel value that is added to these links on page update or publish is `noopener`.
+Description: Filters the rel values that are automatically added on links that are set to open in a new tab. The only rel value that is added to these links on page update or publish is `noopener`.
 Version: 1.0.0
 Author: UCF Web Communications
 License: GPL3
