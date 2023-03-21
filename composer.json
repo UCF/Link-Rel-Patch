@@ -1,0 +1,8 @@
+{
+    "name": "ucf/link-rel-patch",
+    "description": "Removes the noreferrer rel value that is added to links set to open in a new tab on post update or publish.",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}

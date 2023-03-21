@@ -15,6 +15,10 @@ Head over to the [Link Rel Patch wiki](https://github.com/UCF/Link-Rel-Patch/wik
 
 ## Changelog ##
 
+### 1.0.1 ###
+Enhancements:
+* Added composer file.
+
 ### 1.0.0 ###
 * Initial release
 

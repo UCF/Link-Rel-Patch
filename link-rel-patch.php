@@ -2,7 +2,7 @@
 /*
 Plugin Name: Link Rel Patch
 Description: Filters the rel values that are automatically added on links that are set to open in a new tab. The only rel value that is added to these links on page update or publish is `noopener`.
-Version: 1.0.0
+Version: 1.0.1
 Author: UCF Web Communications
 License: GPL3
 GitHub Plugin URI: UCF/Link-Rel-Patch
